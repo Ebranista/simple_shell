@@ -1,21 +1,21 @@
 # Our own simple shell
 
-This is a simple shell we made for our final project in C
+This is our self owned simple shell in C language.
 
 ### About
 
-The program recreates the basic functionality found in the traditional Unix shell.
+Shell is a user interface to use the services of a computer. It can be a command-line interface –the one we will build- or graphical user interface, like regular software such as Windows Office.
 
 ### Compilation
-Our simple shell is compiled this way:
+This simple shell is compiled with:
 ```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
 
 ### Output
-The program should have the exact same output as `sh` as well as the exact same error output. The only difference is when it prints an error, the name of the program must be equivalent the `argv[0]`.
+This program have exact same output as ```sh``` as well as the exact same error output. The only difference is when it prints an error, the name of the program is equivalent to ```argv[0]```.
 
-Example of error with `sh`:
+#### Example of error with ```sh```:
 ```
 $ echo "qwerty" | /bin/sh
 /bin/sh: 1: qwerty: not found
@@ -24,7 +24,8 @@ $ echo "qwerty" | /bin/../bin/sh
 $
 ```
 
-Same error with our program:
+#### Error with our program:
+
 ```
 $ echo "qwerty" | ./hsh
 ./hsh: 1: qwerty: not found
@@ -33,7 +34,7 @@ $ echo "qwerty" | ./././hsh
 $
 ```
 ### Testing
-Our shell should work like this in interactive mode:
+#### Our shell work like this in interactive mode:
 ```
 $ ./hsh
 ($) /bin/ls
@@ -43,7 +44,7 @@ hsh main.c shell.c
 $
 ```
 
-But also in non-interactive mode:
+#### But also in non-interactive mode:
 ```
 $ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
@@ -64,6 +65,14 @@ $ /bin/pwd
 /home/vagrant/shell
 ```
 
+```
+$ 
+```
+
+```
+$ Ethio
+./hsh: No such file or directory
+```
 
 ### Authors
 [Abinet Tesfu](https://github.com/Abinet508)
