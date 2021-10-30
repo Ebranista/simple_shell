@@ -18,18 +18,24 @@ like regular software such as Windows Office.
 
 .SH EXAMPLES
 $  /bin/ls -l
-    -rwxr--r-- 1 root root   841 Oct 25 23:23 token_maker.c
-    -rwxr-xr-x 1 root root 17408 Oct 25 22:02 simple_shell
-    -rwxr--r-- 1 root root  2207 Oct 25 22:02 simple_shell.c
-    -rw-r--r-- 1 root root  1160 Oct 25 23:23 shell.h
-    -r--r--r-- 1 root root  1409 Oct 25 22:24 man_1_simple_shell
+-rw-r--r-- 1 abina 197609  154 Oct 25 11:26 AUTHORS
+-rw-r--r-- 1 abina 197609  345 Oct 25 11:21 check_type.c
+-rw-r--r-- 1 abina 197609  193 Oct 25 11:20 checkC.c
+-rw-r--r-- 1 abina 197609  376 Oct 25 11:21 checkD.c
+-rw-r--r-- 1 abina 197609  425 Oct 25 11:21 exec_cmd.c
+-rw-r--r-- 1 abina 197609  218 Oct 25 11:22 exiter.c
+-rw-r--r-- 1 abina 197609  232 Oct 25 11:21 free_args.c
+-rw-r--r-- 1 abina 197609  203 Oct 25 11:22 init_shell.c
 
 $  ls -l
-    -rwxr--r-- 1 root root   841 Oct 25 23:23 token_maker.c
-    -rwxr-xr-x 1 root root 17408 Oct 25 22:02 simple_shell
-    -rwxr--r-- 1 root root  2207 Oct 25 22:02 simple_shell.c
-    -rw-r--r-- 1 root root  1160 Oct 25 23:23 shell.h
-    -r--r--r-- 1 root root  1409 Oct 25 22:24 man_1_simple_shell
+-rw-r--r-- 1 abina 197609  154 Oct 25 11:26 AUTHORS
+-rw-r--r-- 1 abina 197609  345 Oct 25 11:21 check_type.c
+-rw-r--r-- 1 abina 197609  193 Oct 25 11:20 checkC.c
+-rw-r--r-- 1 abina 197609  376 Oct 25 11:21 checkD.c
+-rw-r--r-- 1 abina 197609  425 Oct 25 11:21 exec_cmd.c
+-rw-r--r-- 1 abina 197609  218 Oct 25 11:22 exiter.c
+-rw-r--r-- 1 abina 197609  232 Oct 25 11:21 free_args.c
+-rw-r--r-- 1 abina 197609  203 Oct 25 11:22 init_shell.c
 
 .SH AUTHOR'S				
 -Written by Abinet Tesfu <abinatmail@gmail.com> and Melat Samuel <melatsam555@gmail.com>
