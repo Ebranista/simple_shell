@@ -41,8 +41,6 @@ $  ls -l
 -Written by Abinet Tesfu <abinatmail@gmail.com> and Melat Samuel <melatsam555@gmail.com>
 
 .SH BUGS
-There were no errors in the testing time of this code (October 25, 2021).
-We would appreciate if you inform us of any problems encountered.
-
+There were no errors in the testing time of this code (October 30, 2021).
 .SH SEE ALSO
 sh
