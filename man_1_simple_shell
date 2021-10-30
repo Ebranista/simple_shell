@@ -1,7 +1,7 @@
 .TH simple_shell "30 October 2021" "V1.0" "simple_shell man page"
 .SH NAME				
 .B simple_shell - Simple Unix comand interpreter	
-simple_shell: the shell or command interpreter or command interpreter is the computer program 
+simple_shell: the shell or command interpreter is the computer program 
 that provides a user interface to access the services of the operating system.
 
 .SH SYNOPSYS				
