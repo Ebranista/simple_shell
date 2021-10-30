@@ -18,24 +18,22 @@ like regular software such as Windows Office.
 
 .SH EXAMPLES
 $  /bin/ls -l
--rw-r--r-- 1 abina 197609  154 Oct 25 11:26 AUTHORS
--rw-r--r-- 1 abina 197609  345 Oct 25 11:21 check_type.c
--rw-r--r-- 1 abina 197609  193 Oct 25 11:20 checkC.c
--rw-r--r-- 1 abina 197609  376 Oct 25 11:21 checkD.c
--rw-r--r-- 1 abina 197609  425 Oct 25 11:21 exec_cmd.c
--rw-r--r-- 1 abina 197609  218 Oct 25 11:22 exiter.c
--rw-r--r-- 1 abina 197609  232 Oct 25 11:21 free_args.c
--rw-r--r-- 1 abina 197609  203 Oct 25 11:22 init_shell.c
+-rw-r--r-- 1 abina 197609  158 Oct 30 11:37 AUTHORS
+-rw-r--r-- 1 abina 197609 3978 Oct 30 11:15 builtins.c
+-rw-r--r-- 1 abina 197609 3934 Oct 30 11:16 f_alias_list.c
+-rw-r--r-- 1 abina 197609 1083 Oct 30 11:16 f_builtin_utils.c
+-rw-r--r-- 1 abina 197609 3018 Oct 30 11:16 f_command_handlers.c
+-rw-r--r-- 1 abina 197609  754 Oct 30 11:14 f_error.c
+-rw-r--r-- 1 abina 197609 1372 Oct 30 11:15 f_exit.c
 
 $  ls -l
--rw-r--r-- 1 abina 197609  154 Oct 25 11:26 AUTHORS
--rw-r--r-- 1 abina 197609  345 Oct 25 11:21 check_type.c
--rw-r--r-- 1 abina 197609  193 Oct 25 11:20 checkC.c
--rw-r--r-- 1 abina 197609  376 Oct 25 11:21 checkD.c
--rw-r--r-- 1 abina 197609  425 Oct 25 11:21 exec_cmd.c
--rw-r--r-- 1 abina 197609  218 Oct 25 11:22 exiter.c
--rw-r--r-- 1 abina 197609  232 Oct 25 11:21 free_args.c
--rw-r--r-- 1 abina 197609  203 Oct 25 11:22 init_shell.c
+-rw-r--r-- 1 abina 197609  158 Oct 30 11:37 AUTHORS
+-rw-r--r-- 1 abina 197609 3978 Oct 30 11:15 builtins.c
+-rw-r--r-- 1 abina 197609 3934 Oct 30 11:16 f_alias_list.c
+-rw-r--r-- 1 abina 197609 1083 Oct 30 11:16 f_builtin_utils.c
+-rw-r--r-- 1 abina 197609 3018 Oct 30 11:16 f_command_handlers.c
+-rw-r--r-- 1 abina 197609  754 Oct 30 11:14 f_error.c
+-rw-r--r-- 1 abina 197609 1372 Oct 30 11:15 f_exit.c
 
 .SH AUTHOR'S				
 -Written by Abinet Tesfu <abinatmail@gmail.com> and Melat Samuel <melatsam555@gmail.com>
